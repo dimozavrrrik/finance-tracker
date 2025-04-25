@@ -8,7 +8,7 @@
 - RESTful API
 
 ### Требования
-- Go 2.21+
+- Go 1.21+
 - SQLite3
 
 ```bash
