@@ -55,9 +55,6 @@ func main() {
 	})
 
 	http.HandleFunc("/transactions/filter", h.HandleFilterByDate)
-	//http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
-	//	w.Write([]byte("Добро пожаловать в Finance Tracker!"))
-	//})
 	log.Println("Сервер запущен: http://localhost:8080")
 	http.ListenAndServe(":8080", nil)
 }
